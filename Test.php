@@ -9,6 +9,14 @@ class Index {
 
 $obj = new Index();
 
-echo $obj->index() ;
+echo round(10.00, 2);
+
+echo "-----------\n";
+
+goto a;
+echo 'Foo';
+ 
+a:
+echo 'Bar';
 
 ?>
